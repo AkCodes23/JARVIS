@@ -1,0 +1,27 @@
+# Core AI
+langchain>=0.0.267
+llama-index>=0.8.4
+openai>=0.27.8
+transformers>=4.30.2
+sentence-transformers>=2.2.2
+chromadb>=0.4.6
+
+# Voice processing
+SpeechRecognition>=3.10.0
+pyttsx3>=2.90
+pyaudio>=0.2.13
+pydub>=0.25.1
+pvporcupine>=2.1.4  # For wake word detection
+
+# Utilities
+pyyaml>=6.0
+python-dotenv>=1.0.0
+requests>=2.31.0
+fastapi>=0.95.2
+uvicorn>=0.22.0
+
+# Smart home (optional)
+homeassistant-api>=4.2.0
+
+# Testing
+pytest>=7.3.1
