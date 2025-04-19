@@ -1,0 +1,43 @@
+system:
+  name: "Jarvis"
+  log_level: "INFO"
+  timezone: "UTC"
+
+voice:
+  wake_word: "jarvis"
+  enable_wake_word: true
+  tts_provider: "local"  # local, elevenlabs, google, azure
+  stt_provider: "whisper_local"  # whisper_local, google, azure
+  voice_id: "default"
+  language: "en-US"
+  volume: 1.0
+  rate: 1.0
+
+llm:
+  provider: "openai"  # openai, anthropic, local
+  model: "gpt-4"  # or "claude-3-opus-20240229" or "mistral-large"
+  temperature: 0.7
+  max_tokens: 2000
+
+memory:
+  conversation_ttl: 3600  # seconds
+  vector_db_path: "data/vector_db"
+  embeddings_model: "all-MiniLM-L6-v2"
+
+agent:
+  enable_autonomous_mode: false
+  verification_level: "high"  # none, low, medium, high
+  allowed_tools:
+    - web_search
+    - calculator
+    - system_info
+    - smart_home
+    - calendar
+    - weather
+    - news
+
+rag:
+  chunk_size: 1000
+  chunk_overlap: 200
+  retrieval_k: 5
+  rerank_results: true
