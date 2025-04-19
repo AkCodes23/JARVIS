@@ -1,3 +1,10 @@
+# Jarvis Voice Assistant
+
+A sophisticated AI assistant inspired by Tony Stark's Jarvis from Iron Man, built with modern AI techniques including agentic AI and RAG.
+
+## Project Structure
+
+```
 jarvis/
 ├── .env                        # Environment variables
 ├── .gitignore                  # Git ignore file
@@ -92,3 +99,45 @@ jarvis/
     ├── unit/                   # Unit tests
     ├── integration/            # Integration tests
     └── fixtures/               # Test data and mocks
+```
+
+## Installation
+
+1. Clone the repository
+2. Create a virtual environment: `python -m venv venv`
+3. Activate the virtual environment:
+   - Windows: `venv\Scripts\activate`
+   - Unix/MacOS: `source venv/bin/activate`
+4. Install dependencies: `pip install -r requirements.txt`
+5. Copy `.env.example` to `.env` and fill in required API keys
+
+## Configuration
+
+Edit the files in the `config/` directory to customize Jarvis to your needs:
+- `default_config.yaml` - Default system settings
+- `user_config.yaml` - Your personal preferences and overrides
+
+## Usage
+
+Run the assistant:
+```
+python -m jarvis
+```
+
+## Features
+
+- Voice recognition and synthesis
+- LLM-powered conversation
+- Retrieval-augmented generation (RAG)
+- Agentic capabilities with tool use
+- Smart home integration
+- Personal information management
+- External services connectivity
+
+## Development
+
+This project uses [VSCode/PyCharm] for development. Set up your environment with the recommended extensions for the best experience.
+
+## License
+
+[Your license choice]
