@@ -1,4 +1,4 @@
-# Jarvis Voice Assistant
+# Jarvis Voice Assistant (Ongoing)
 
 A sophisticated AI assistant inspired by Tony Stark's Jarvis from Iron Man, built with modern AI techniques including agentic AI and RAG.
 
