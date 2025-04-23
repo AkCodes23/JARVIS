@@ -134,10 +134,4 @@ python -m jarvis
 - Personal information management
 - External services connectivity
 
-## Development
 
-This project uses [VSCode/PyCharm] for development. Set up your environment with the recommended extensions for the best experience.
-
-## License
-
-[Your license choice]
