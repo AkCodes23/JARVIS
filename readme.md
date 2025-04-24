@@ -59,11 +59,8 @@ jarvis/
 │   └── audio_utils.py          # Audio processing utilities
 │
 ├── integrations/               # External services integration
-│   ├── __init__.py
-│   ├── smart_home/             # Smart home control
-│   │   ├── __init__.py
-│   │   ├── home_assistant.py
-│   │   └── device_controllers/
+│   ├── __init__.py       
+│   │   
 │   │
 │   ├── personal/               # Personal information
 │   │   ├── __init__.py
