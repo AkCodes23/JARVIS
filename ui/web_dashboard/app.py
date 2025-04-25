@@ -65,7 +65,7 @@ def create_app(
             
         except Exception as e:
             logger.error(f"Failed to get status: {e}")
-            return jsonify({'error': str(e)}), 500
+            return jsonify({'error': 'An internal error has occurred.'}), 500
     
     @app.route('/api/logs')
     def get_logs():
@@ -88,6 +88,6 @@ def create_app(
             
         except Exception as e:
             logger.error(f"Failed to get logs: {e}")
-            return jsonify({'error': str(e)}), 500
+            return jsonify({'error': 'An internal error has occurred.'}), 500
     
     return app 
