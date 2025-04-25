@@ -1,0 +1,71 @@
+{
+  "conversation": [
+    {
+      "timestamp": "2025-04-25T14:45:38.372939",
+      "text": "good morning what brings you in today good morning doctor I've been having a sore throat and a slight fever for the past two days have you had any cough diff",
+      "extracted_terms": {
+        "symptoms": [
+          "fever",
+          "cough"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-04-25T14:46:03.321732",
+      "text": "a contact with somebody who have sick now I've been at home mostly but the weather has been changing a lot with you that could be a factor let me check your temperature and",
+      "extracted_terms": {
+        "vital_signs": [
+          "temperature"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-04-25T14:46:25.771415",
+      "text": "is it something serious nothing to worry about I prescribed you some antibiotics make sure to rest drink plenty of fluids and avoid cold foods thank you",
+      "extracted_terms": {
+        "medications": [
+          "antibiotics"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-04-25T14:46:43.995825",
+      "text": "thank you thank you",
+      "extracted_terms": {}
+    }
+  ],
+  "insights": {
+    "key_points": [
+      "Patient reported symptoms: fever, cough",
+      "Vital signs mentioned: temperature",
+      "Medications discussed: antibiotics"
+    ],
+    "action_items": [
+      "Document symptom severity and duration",
+      "Record current vital signs",
+      "Compare with previous readings",
+      "Review current medications",
+      "Check for potential drug interactions"
+    ],
+    "patient_concerns": [],
+    "medical_terms": [],
+    "follow_up_questions": [
+      "What is your current temperature?",
+      "Have you taken any fever-reducing medication?",
+      "Are you taking any other medications?",
+      "Have you experienced any side effects from your medications?"
+    ],
+    "symptoms": [
+      "fever",
+      "cough"
+    ],
+    "medications": [
+      "antibiotics"
+    ],
+    "vital_signs": [
+      "temperature"
+    ],
+    "diagnosis_considerations": []
+  },
+  "timestamp": "2025-04-25T14:47:03.472709"
+}

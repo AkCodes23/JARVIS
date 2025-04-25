@@ -1,0 +1,1416 @@
+2025-04-25 11:51:10,810 - __main__ - INFO - Initializing Jarvis...
+2025-04-25 11:51:10,863 - jarvis - INFO - Initializing Jarvis Brain...
+2025-04-25 11:51:10,915 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\akhil\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-04-25 11:51:10,916 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\akhil\AppData\Local\Programs\Python\Python312\Lib\site-packages\comtypes\gen'
+2025-04-25 11:51:11,042 - core.voice.manager - INFO - Voice data directory: D:\Projects\Jarvis\data\voice
+2025-04-25 11:51:11,042 - core.voice.manager - INFO - Available audio devices:
+2025-04-25 11:51:11,045 - core.voice.manager - INFO - [0] Microsoft Sound Mapper - Input (inputs: 2, outputs: 0)
+2025-04-25 11:51:11,045 - core.voice.manager - INFO - [1] Microphone Array (Realtek(R) Au (inputs: 2, outputs: 0)
+2025-04-25 11:51:11,045 - core.voice.manager - INFO - [2] Stereo Mix (Realtek(R) Audio) (inputs: 2, outputs: 0)
+2025-04-25 11:51:11,045 - core.voice.manager - INFO - [3] Headset (ZEB-COUNTY5) (inputs: 2, outputs: 0)
+2025-04-25 11:51:11,046 - core.voice.manager - INFO - [4] Microsoft Sound Mapper - Output (inputs: 0, outputs: 2)
+2025-04-25 11:51:11,046 - core.voice.manager - INFO - [5] Headphones (ZEB-COUNTY5) (inputs: 0, outputs: 2)
+2025-04-25 11:51:11,047 - core.voice.manager - INFO - [6] Speaker (Realtek(R) Audio) (inputs: 0, outputs: 2)
+2025-04-25 11:51:11,047 - core.voice.manager - INFO - [7] Primary Sound Capture Driver (inputs: 2, outputs: 0)
+2025-04-25 11:51:11,048 - core.voice.manager - INFO - [8] Microphone Array (Realtek(R) Audio) (inputs: 2, outputs: 0)
+2025-04-25 11:51:11,048 - core.voice.manager - INFO - [9] Stereo Mix (Realtek(R) Audio) (inputs: 2, outputs: 0)
+2025-04-25 11:51:11,048 - core.voice.manager - INFO - [10] Headset (ZEB-COUNTY5) (inputs: 2, outputs: 0)
+2025-04-25 11:51:11,049 - core.voice.manager - INFO - [11] Primary Sound Driver (inputs: 0, outputs: 2)
+2025-04-25 11:51:11,049 - core.voice.manager - INFO - [12] Headphones (ZEB-COUNTY5) (inputs: 0, outputs: 2)
+2025-04-25 11:51:11,049 - core.voice.manager - INFO - [13] Speaker (Realtek(R) Audio) (inputs: 0, outputs: 2)
+2025-04-25 11:51:11,050 - core.voice.manager - INFO - [14] Speaker (Realtek(R) Audio) (inputs: 0, outputs: 2)
+2025-04-25 11:51:11,050 - core.voice.manager - INFO - [15] Headphones (ZEB-COUNTY5) (inputs: 0, outputs: 2)
+2025-04-25 11:51:11,050 - core.voice.manager - INFO - [16] Stereo Mix (Realtek(R) Audio) (inputs: 2, outputs: 0)
+2025-04-25 11:51:11,052 - core.voice.manager - INFO - [17] Headset (ZEB-COUNTY5) (inputs: 1, outputs: 0)
+2025-04-25 11:51:11,053 - core.voice.manager - INFO - [18] Microphone Array (Realtek(R) Audio) (inputs: 2, outputs: 0)
+2025-04-25 11:51:11,053 - core.voice.manager - INFO - [19] Input () (inputs: 2, outputs: 0)
+2025-04-25 11:51:11,054 - core.voice.manager - INFO - [20] Mic in at front panel (black) (Mic in at front panel (black)) (inputs: 2, outputs: 0)
+2025-04-25 11:51:11,055 - core.voice.manager - INFO - [21] Headphones (Realtek HD Audio 2nd output) (inputs: 0, outputs: 2)
+2025-04-25 11:51:11,055 - core.voice.manager - INFO - [22] Speakers 1 (Realtek HD Audio output with HAP) (inputs: 0, outputs: 2)
+2025-04-25 11:51:11,056 - core.voice.manager - INFO - [23] Speakers 2 (Realtek HD Audio output with HAP) (inputs: 0, outputs: 6)
+2025-04-25 11:51:11,056 - core.voice.manager - INFO - [24] PC Speaker (Realtek HD Audio output with HAP) (inputs: 2, outputs: 0)
+2025-04-25 11:51:11,057 - core.voice.manager - INFO - [25] Stereo Mix (Realtek HD Audio Stereo input) (inputs: 2, outputs: 0)
+2025-04-25 11:51:11,058 - core.voice.manager - INFO - [26] Microphone Array (Realtek HD Audio Mic input) (inputs: 2, outputs: 0)
+2025-04-25 11:51:11,058 - core.voice.manager - INFO - [27] Headphones () (inputs: 0, outputs: 2)
+2025-04-25 11:51:11,059 - core.voice.manager - INFO - [28] Headset (@System32\drivers\bthhfenum.sys,#2;%1 Hands-Free%0
+;(Rockerz 450)) (inputs: 0, outputs: 1)
+2025-04-25 11:51:11,059 - core.voice.manager - INFO - [29] Headset (@System32\drivers\bthhfenum.sys,#2;%1 Hands-Free%0
+;(Rockerz 450)) (inputs: 1, outputs: 0)
+2025-04-25 11:51:11,060 - core.voice.manager - INFO - [30] Headset (@System32\drivers\bthhfenum.sys,#2;%1 Hands-Free%0
+;(ZEB-COUNTY5)) (inputs: 0, outputs: 1)
+2025-04-25 11:51:11,060 - core.voice.manager - INFO - [31] Headset (@System32\drivers\bthhfenum.sys,#2;%1 Hands-Free%0
+;(ZEB-COUNTY5)) (inputs: 1, outputs: 0)
+2025-04-25 11:51:11,061 - core.voice.manager - INFO - [32] Headphones () (inputs: 0, outputs: 2)
+2025-04-25 11:51:11,062 - core.voice.manager - INFO - [33] Headphones () (inputs: 0, outputs: 2)
+2025-04-25 11:51:11,063 - core.voice.manager - INFO - [34] Output (@System32\drivers\bthhfenum.sys,#4;%1 Hands-Free HF Audio%0
+;(Akhil)) (inputs: 0, outputs: 1)
+2025-04-25 11:51:11,064 - core.voice.manager - INFO - [35] Input (@System32\drivers\bthhfenum.sys,#4;%1 Hands-Free HF Audio%0
+;(Akhil)) (inputs: 1, outputs: 0)
+2025-04-25 11:51:11,064 - core.voice.manager - INFO - [36] Headset (@System32\drivers\bthhfenum.sys,#2;%1 Hands-Free%0
+;(Airdopes ATOM 81)) (inputs: 0, outputs: 1)
+2025-04-25 11:51:11,065 - core.voice.manager - INFO - [37] Headset (@System32\drivers\bthhfenum.sys,#2;%1 Hands-Free%0
+;(Airdopes ATOM 81)) (inputs: 1, outputs: 0)
+2025-04-25 11:51:11,065 - core.voice.manager - INFO - Using default input device: Microphone Array (Realtek(R) Au
+2025-04-25 11:51:11,066 - jarvis - INFO - Jarvis Brain initialized successfully
+2025-04-25 11:51:11,066 - jarvis - INFO - Starting Jarvis...
+2025-04-25 11:51:11,067 - core.llm.manager - INFO - Initializing Groq LLM manager...
+2025-04-25 11:51:11,563 - core.llm.manager - INFO - Initialized Groq with model: llama-3.3-70b-versatile
+2025-04-25 11:51:11,564 - core.memory.manager - INFO - Initializing memory manager...
+2025-04-25 11:51:11,564 - core.rag.manager - INFO - Initializing RAG manager...
+2025-04-25 11:51:11,565 - core.tools.manager - INFO - Initializing tools manager...
+2025-04-25 11:51:11,565 - core.tools.manager - INFO - Found chrome at C:\Program Files\Google\Chrome\Application\chrome.exe
+2025-04-25 11:51:11,566 - core.tools.manager - WARNING - Could not find firefox at C:\Program Files\Mozilla Firefox\firefox.exe
+2025-04-25 11:51:11,566 - core.tools.manager - INFO - Found edge at C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+2025-04-25 11:51:11,567 - core.tools.manager - INFO - Found notepad at C:\Windows\System32\notepad.exe
+2025-04-25 11:51:11,568 - core.tools.manager - INFO - Found calculator at C:\Windows\System32\calc.exe
+2025-04-25 11:51:11,568 - core.tools.manager - INFO - Found explorer at C:\Windows\explorer.exe
+2025-04-25 11:51:11,569 - core.agent.manager - INFO - Initializing agent manager...
+2025-04-25 11:51:11,569 - core.voice.manager - INFO - Initializing voice manager...
+2025-04-25 11:51:11,942 - core.voice.manager - INFO - Adjusting for ambient noise... Please wait.
+2025-04-25 11:51:13,978 - core.voice.manager - INFO - Voice manager initialized successfully
+2025-04-25 11:51:13,979 - jarvis - INFO - Jarvis is ready.
+2025-04-25 11:51:39,786 - jarvis - INFO - Processing input: open google
+2025-04-25 11:51:39,788 - core.tools.manager - INFO - Opening website: https://google.com
+2025-04-25 11:54:15,211 - __main__ - INFO - Initializing Jarvis...
+2025-04-25 11:54:15,263 - jarvis - INFO - Initializing Jarvis Brain...
+2025-04-25 11:54:15,309 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\akhil\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-04-25 11:54:15,309 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\akhil\AppData\Local\Programs\Python\Python312\Lib\site-packages\comtypes\gen'
+2025-04-25 11:54:15,426 - core.voice.manager - INFO - Voice data directory: D:\Projects\Jarvis\data\voice
+2025-04-25 11:54:15,427 - core.voice.manager - INFO - Available audio devices:
+2025-04-25 11:54:15,427 - core.voice.manager - INFO - [0] Microsoft Sound Mapper - Input (inputs: 2, outputs: 0)
+2025-04-25 11:54:15,427 - core.voice.manager - INFO - [1] Microphone Array (Realtek(R) Au (inputs: 2, outputs: 0)
+2025-04-25 11:54:15,427 - core.voice.manager - INFO - [2] Stereo Mix (Realtek(R) Audio) (inputs: 2, outputs: 0)
+2025-04-25 11:54:15,428 - core.voice.manager - INFO - [3] Headset (ZEB-COUNTY5) (inputs: 2, outputs: 0)
+2025-04-25 11:54:15,428 - core.voice.manager - INFO - [4] Microsoft Sound Mapper - Output (inputs: 0, outputs: 2)
+2025-04-25 11:54:15,429 - core.voice.manager - INFO - [5] Headphones (ZEB-COUNTY5) (inputs: 0, outputs: 2)
+2025-04-25 11:54:15,429 - core.voice.manager - INFO - [6] Speaker (Realtek(R) Audio) (inputs: 0, outputs: 2)
+2025-04-25 11:54:15,429 - core.voice.manager - INFO - [7] Primary Sound Capture Driver (inputs: 2, outputs: 0)
+2025-04-25 11:54:15,430 - core.voice.manager - INFO - [8] Microphone Array (Realtek(R) Audio) (inputs: 2, outputs: 0)
+2025-04-25 11:54:15,430 - core.voice.manager - INFO - [9] Stereo Mix (Realtek(R) Audio) (inputs: 2, outputs: 0)
+2025-04-25 11:54:15,430 - core.voice.manager - INFO - [10] Headset (ZEB-COUNTY5) (inputs: 2, outputs: 0)
+2025-04-25 11:54:15,431 - core.voice.manager - INFO - [11] Primary Sound Driver (inputs: 0, outputs: 2)
+2025-04-25 11:54:15,431 - core.voice.manager - INFO - [12] Headphones (ZEB-COUNTY5) (inputs: 0, outputs: 2)
+2025-04-25 11:54:15,431 - core.voice.manager - INFO - [13] Speaker (Realtek(R) Audio) (inputs: 0, outputs: 2)
+2025-04-25 11:54:15,432 - core.voice.manager - INFO - [14] Speaker (Realtek(R) Audio) (inputs: 0, outputs: 2)
+2025-04-25 11:54:15,432 - core.voice.manager - INFO - [15] Headphones (ZEB-COUNTY5) (inputs: 0, outputs: 2)
+2025-04-25 11:54:15,432 - core.voice.manager - INFO - [16] Stereo Mix (Realtek(R) Audio) (inputs: 2, outputs: 0)
+2025-04-25 11:54:15,433 - core.voice.manager - INFO - [17] Headset (ZEB-COUNTY5) (inputs: 1, outputs: 0)
+2025-04-25 11:54:15,433 - core.voice.manager - INFO - [18] Microphone Array (Realtek(R) Audio) (inputs: 2, outputs: 0)
+2025-04-25 11:54:15,434 - core.voice.manager - INFO - [19] Input () (inputs: 2, outputs: 0)
+2025-04-25 11:54:15,434 - core.voice.manager - INFO - [20] Mic in at front panel (black) (Mic in at front panel (black)) (inputs: 2, outputs: 0)
+2025-04-25 11:54:15,434 - core.voice.manager - INFO - [21] Headphones (Realtek HD Audio 2nd output) (inputs: 0, outputs: 2)
+2025-04-25 11:54:15,435 - core.voice.manager - INFO - [22] Speakers 1 (Realtek HD Audio output with HAP) (inputs: 0, outputs: 2)
+2025-04-25 11:54:15,435 - core.voice.manager - INFO - [23] Speakers 2 (Realtek HD Audio output with HAP) (inputs: 0, outputs: 6)
+2025-04-25 11:54:15,436 - core.voice.manager - INFO - [24] PC Speaker (Realtek HD Audio output with HAP) (inputs: 2, outputs: 0)
+2025-04-25 11:54:15,437 - core.voice.manager - INFO - [25] Stereo Mix (Realtek HD Audio Stereo input) (inputs: 2, outputs: 0)
+2025-04-25 11:54:15,437 - core.voice.manager - INFO - [26] Microphone Array (Realtek HD Audio Mic input) (inputs: 2, outputs: 0)
+2025-04-25 11:54:15,438 - core.voice.manager - INFO - [27] Headphones () (inputs: 0, outputs: 2)
+2025-04-25 11:54:15,438 - core.voice.manager - INFO - [28] Headset (@System32\drivers\bthhfenum.sys,#2;%1 Hands-Free%0
+;(Rockerz 450)) (inputs: 0, outputs: 1)
+2025-04-25 11:54:15,439 - core.voice.manager - INFO - [29] Headset (@System32\drivers\bthhfenum.sys,#2;%1 Hands-Free%0
+;(Rockerz 450)) (inputs: 1, outputs: 0)
+2025-04-25 11:54:15,440 - core.voice.manager - INFO - [30] Headset (@System32\drivers\bthhfenum.sys,#2;%1 Hands-Free%0
+;(ZEB-COUNTY5)) (inputs: 0, outputs: 1)
+2025-04-25 11:54:15,440 - core.voice.manager - INFO - [31] Headset (@System32\drivers\bthhfenum.sys,#2;%1 Hands-Free%0
+;(ZEB-COUNTY5)) (inputs: 1, outputs: 0)
+2025-04-25 11:54:15,441 - core.voice.manager - INFO - [32] Headphones () (inputs: 0, outputs: 2)
+2025-04-25 11:54:15,441 - core.voice.manager - INFO - [33] Headphones () (inputs: 0, outputs: 2)
+2025-04-25 11:54:15,442 - core.voice.manager - INFO - [34] Output (@System32\drivers\bthhfenum.sys,#4;%1 Hands-Free HF Audio%0
+;(Akhil)) (inputs: 0, outputs: 1)
+2025-04-25 11:54:15,443 - core.voice.manager - INFO - [35] Input (@System32\drivers\bthhfenum.sys,#4;%1 Hands-Free HF Audio%0
+;(Akhil)) (inputs: 1, outputs: 0)
+2025-04-25 11:54:15,444 - core.voice.manager - INFO - [36] Headset (@System32\drivers\bthhfenum.sys,#2;%1 Hands-Free%0
+;(Airdopes ATOM 81)) (inputs: 0, outputs: 1)
+2025-04-25 11:54:15,444 - core.voice.manager - INFO - [37] Headset (@System32\drivers\bthhfenum.sys,#2;%1 Hands-Free%0
+;(Airdopes ATOM 81)) (inputs: 1, outputs: 0)
+2025-04-25 11:54:15,445 - core.voice.manager - INFO - Using default input device: Microphone Array (Realtek(R) Au
+2025-04-25 11:54:15,445 - jarvis - INFO - Jarvis Brain initialized successfully
+2025-04-25 11:54:15,446 - jarvis - INFO - Starting Jarvis...
+2025-04-25 11:54:15,447 - core.llm.manager - INFO - Initializing Groq LLM manager...
+2025-04-25 11:54:15,920 - core.llm.manager - INFO - Initialized Groq with model: llama-3.3-70b-versatile
+2025-04-25 11:54:15,921 - core.memory.manager - INFO - Initializing memory manager...
+2025-04-25 11:54:15,921 - core.rag.manager - INFO - Initializing RAG manager...
+2025-04-25 11:54:15,921 - core.tools.manager - INFO - Initializing tools manager...
+2025-04-25 11:54:15,922 - core.tools.manager - INFO - Found chrome at C:\Program Files\Google\Chrome\Application\chrome.exe
+2025-04-25 11:54:15,922 - core.tools.manager - WARNING - Could not find firefox at C:\Program Files\Mozilla Firefox\firefox.exe
+2025-04-25 11:54:15,922 - core.tools.manager - INFO - Found edge at C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+2025-04-25 11:54:15,923 - core.tools.manager - INFO - Found notepad at C:\Windows\System32\notepad.exe
+2025-04-25 11:54:15,923 - core.tools.manager - INFO - Found calculator at C:\Windows\System32\calc.exe
+2025-04-25 11:54:15,924 - core.tools.manager - INFO - Found explorer at C:\Windows\explorer.exe
+2025-04-25 11:54:15,924 - core.agent.manager - INFO - Initializing agent manager...
+2025-04-25 11:54:15,925 - core.voice.manager - INFO - Initializing voice manager...
+2025-04-25 11:54:16,227 - core.voice.manager - INFO - Adjusting for ambient noise... Please wait.
+2025-04-25 11:54:18,261 - core.voice.manager - INFO - Voice manager initialized successfully
+2025-04-25 11:54:18,262 - jarvis - INFO - Jarvis is ready.
+2025-04-25 11:54:18,263 - core.voice.manager - INFO - Converting text to speech: Hello, I am Jarvis. I'm ready to help you. You can ask me questions or give me commands like 'open google' or 'open notepad'.
+2025-04-25 11:54:28,275 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 11:54:28,275 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 11:54:34,072 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 11:54:34,137 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 11:54:34,138 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 11:54:35,519 - core.voice.manager - INFO - Transcription result: what is the capital of India
+2025-04-25 11:54:35,520 - jarvis - INFO - Processing input: what is the capital of India
+2025-04-25 11:54:37,581 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-25 11:54:37,592 - core.voice.manager - INFO - Converting text to speech: To answer this question, I will follow the reasoning steps outlined.
+
+**First, let me understand the core concept being asked about.** 
+The core concept being asked about is the capital city of India, which is a country located in South Asia. The question is seeking a specific piece of information about India's geography and administrative structure.
+
+**Next, I'll consider the relevant context and background information.** 
+India is a sovereign nation with a federal parliamentary democratic republic form of government. It has a long history, diverse culture, and a large population. The country has undergone significant changes and developments since its independence from British colonial rule in 1947. The capital city of India plays a crucial role in the country's governance, economy, and international relations.
+
+**Now, I'll explain the concept in a clear and concise way.** 
+The capital of India is New Delhi. New Delhi is a planned city that was designed by British architects Edwin Lutyens and Herbert Baker in the early 20th century. It was built as the new capital of British India and was inaugurated in 1931. After India gained independence, New Delhi continued to serve as the capital of the country. The city is home to various important landmarks, including the Rashtrapati Bhavan (the official residence of the President of India), the Parliament of India, and other government buildings.
+
+**Finally, I'll provide relevant examples to illustrate the explanation.** 
+For instance, New Delhi is not only the capital of India but also a major cultural and economic hub. The city is known for its historic monuments, such as the Red Fort, Qutub Minar, and India Gate, which attract millions of tourists and pilgrims every year. Additionally, New Delhi is a center for international diplomacy, hosting various embassies and diplomatic missions from around the world. The city's importance is further highlighted by the fact that it is the seat of the Indian government, with the Prime Minister's Office and other key ministries located there. Overall, New Delhi's status as the capital of India reflects its significance in the country's history, politics, economy, and culture.
+2025-04-25 11:56:51,656 - __main__ - INFO - Initializing Jarvis...
+2025-04-25 11:56:51,710 - jarvis - INFO - Initializing Jarvis Brain...
+2025-04-25 11:56:51,756 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\akhil\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-04-25 11:56:51,757 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\akhil\AppData\Local\Programs\Python\Python312\Lib\site-packages\comtypes\gen'
+2025-04-25 11:56:51,880 - core.voice.manager - INFO - Voice data directory: D:\Projects\Jarvis\data\voice
+2025-04-25 11:56:51,880 - core.voice.manager - INFO - Available audio devices:
+2025-04-25 11:56:51,880 - core.voice.manager - INFO - [0] Microsoft Sound Mapper - Input (inputs: 2, outputs: 0)
+2025-04-25 11:56:51,880 - core.voice.manager - INFO - [1] Microphone Array (Realtek(R) Au (inputs: 2, outputs: 0)
+2025-04-25 11:56:51,880 - core.voice.manager - INFO - [2] Stereo Mix (Realtek(R) Audio) (inputs: 2, outputs: 0)
+2025-04-25 11:56:51,881 - core.voice.manager - INFO - [3] Headset (ZEB-COUNTY5) (inputs: 2, outputs: 0)
+2025-04-25 11:56:51,881 - core.voice.manager - INFO - [4] Microsoft Sound Mapper - Output (inputs: 0, outputs: 2)
+2025-04-25 11:56:51,882 - core.voice.manager - INFO - [5] Headphones (ZEB-COUNTY5) (inputs: 0, outputs: 2)
+2025-04-25 11:56:51,882 - core.voice.manager - INFO - [6] Speaker (Realtek(R) Audio) (inputs: 0, outputs: 2)
+2025-04-25 11:56:51,882 - core.voice.manager - INFO - [7] Primary Sound Capture Driver (inputs: 2, outputs: 0)
+2025-04-25 11:56:51,882 - core.voice.manager - INFO - [8] Microphone Array (Realtek(R) Audio) (inputs: 2, outputs: 0)
+2025-04-25 11:56:51,883 - core.voice.manager - INFO - [9] Stereo Mix (Realtek(R) Audio) (inputs: 2, outputs: 0)
+2025-04-25 11:56:51,883 - core.voice.manager - INFO - [10] Headset (ZEB-COUNTY5) (inputs: 2, outputs: 0)
+2025-04-25 11:56:51,883 - core.voice.manager - INFO - [11] Primary Sound Driver (inputs: 0, outputs: 2)
+2025-04-25 11:56:51,883 - core.voice.manager - INFO - [12] Headphones (ZEB-COUNTY5) (inputs: 0, outputs: 2)
+2025-04-25 11:56:51,884 - core.voice.manager - INFO - [13] Speaker (Realtek(R) Audio) (inputs: 0, outputs: 2)
+2025-04-25 11:56:51,884 - core.voice.manager - INFO - [14] Speaker (Realtek(R) Audio) (inputs: 0, outputs: 2)
+2025-04-25 11:56:51,884 - core.voice.manager - INFO - [15] Headphones (ZEB-COUNTY5) (inputs: 0, outputs: 2)
+2025-04-25 11:56:51,884 - core.voice.manager - INFO - [16] Stereo Mix (Realtek(R) Audio) (inputs: 2, outputs: 0)
+2025-04-25 11:56:51,885 - core.voice.manager - INFO - [17] Headset (ZEB-COUNTY5) (inputs: 1, outputs: 0)
+2025-04-25 11:56:51,885 - core.voice.manager - INFO - [18] Microphone Array (Realtek(R) Audio) (inputs: 2, outputs: 0)
+2025-04-25 11:56:51,885 - core.voice.manager - INFO - [19] Input () (inputs: 2, outputs: 0)
+2025-04-25 11:56:51,885 - core.voice.manager - INFO - [20] Mic in at front panel (black) (Mic in at front panel (black)) (inputs: 2, outputs: 0)
+2025-04-25 11:56:51,886 - core.voice.manager - INFO - [21] Headphones (Realtek HD Audio 2nd output) (inputs: 0, outputs: 2)
+2025-04-25 11:56:51,887 - core.voice.manager - INFO - [22] Speakers 1 (Realtek HD Audio output with HAP) (inputs: 0, outputs: 2)
+2025-04-25 11:56:51,887 - core.voice.manager - INFO - [23] Speakers 2 (Realtek HD Audio output with HAP) (inputs: 0, outputs: 6)
+2025-04-25 11:56:51,887 - core.voice.manager - INFO - [24] PC Speaker (Realtek HD Audio output with HAP) (inputs: 2, outputs: 0)
+2025-04-25 11:56:51,888 - core.voice.manager - INFO - [25] Stereo Mix (Realtek HD Audio Stereo input) (inputs: 2, outputs: 0)
+2025-04-25 11:56:51,888 - core.voice.manager - INFO - [26] Microphone Array (Realtek HD Audio Mic input) (inputs: 2, outputs: 0)
+2025-04-25 11:56:51,888 - core.voice.manager - INFO - [27] Headphones () (inputs: 0, outputs: 2)
+2025-04-25 11:56:51,889 - core.voice.manager - INFO - [28] Headset (@System32\drivers\bthhfenum.sys,#2;%1 Hands-Free%0
+;(Rockerz 450)) (inputs: 0, outputs: 1)
+2025-04-25 11:56:51,889 - core.voice.manager - INFO - [29] Headset (@System32\drivers\bthhfenum.sys,#2;%1 Hands-Free%0
+;(Rockerz 450)) (inputs: 1, outputs: 0)
+2025-04-25 11:56:51,890 - core.voice.manager - INFO - [30] Headset (@System32\drivers\bthhfenum.sys,#2;%1 Hands-Free%0
+;(ZEB-COUNTY5)) (inputs: 0, outputs: 1)
+2025-04-25 11:56:51,890 - core.voice.manager - INFO - [31] Headset (@System32\drivers\bthhfenum.sys,#2;%1 Hands-Free%0
+;(ZEB-COUNTY5)) (inputs: 1, outputs: 0)
+2025-04-25 11:56:51,891 - core.voice.manager - INFO - [32] Headphones () (inputs: 0, outputs: 2)
+2025-04-25 11:56:51,891 - core.voice.manager - INFO - [33] Headphones () (inputs: 0, outputs: 2)
+2025-04-25 11:56:51,891 - core.voice.manager - INFO - [34] Output (@System32\drivers\bthhfenum.sys,#4;%1 Hands-Free HF Audio%0
+;(Akhil)) (inputs: 0, outputs: 1)
+2025-04-25 11:56:51,892 - core.voice.manager - INFO - [35] Input (@System32\drivers\bthhfenum.sys,#4;%1 Hands-Free HF Audio%0
+;(Akhil)) (inputs: 1, outputs: 0)
+2025-04-25 11:56:51,892 - core.voice.manager - INFO - [36] Headset (@System32\drivers\bthhfenum.sys,#2;%1 Hands-Free%0
+;(Airdopes ATOM 81)) (inputs: 0, outputs: 1)
+2025-04-25 11:56:51,893 - core.voice.manager - INFO - [37] Headset (@System32\drivers\bthhfenum.sys,#2;%1 Hands-Free%0
+;(Airdopes ATOM 81)) (inputs: 1, outputs: 0)
+2025-04-25 11:56:51,893 - core.voice.manager - INFO - Using default input device: Microphone Array (Realtek(R) Au
+2025-04-25 11:56:51,893 - jarvis - INFO - Jarvis Brain initialized successfully
+2025-04-25 11:56:51,894 - jarvis - INFO - Starting Jarvis...
+2025-04-25 11:56:51,894 - core.llm.manager - INFO - Initializing Groq LLM manager...
+2025-04-25 11:56:52,385 - core.llm.manager - INFO - Initialized Groq with model: llama-3.3-70b-versatile
+2025-04-25 11:56:52,385 - core.memory.manager - INFO - Initializing memory manager...
+2025-04-25 11:56:52,386 - core.rag.manager - INFO - Initializing RAG manager...
+2025-04-25 11:56:52,386 - core.tools.manager - INFO - Initializing tools manager...
+2025-04-25 11:56:52,387 - core.tools.manager - INFO - Found chrome at C:\Program Files\Google\Chrome\Application\chrome.exe
+2025-04-25 11:56:52,388 - core.tools.manager - WARNING - Could not find firefox at C:\Program Files\Mozilla Firefox\firefox.exe
+2025-04-25 11:56:52,388 - core.tools.manager - INFO - Found edge at C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+2025-04-25 11:56:52,389 - core.tools.manager - INFO - Found notepad at C:\Windows\System32\notepad.exe
+2025-04-25 11:56:52,389 - core.tools.manager - INFO - Found calculator at C:\Windows\System32\calc.exe
+2025-04-25 11:56:52,390 - core.tools.manager - INFO - Found explorer at C:\Windows\explorer.exe
+2025-04-25 11:56:52,390 - core.agent.manager - INFO - Initializing agent manager...
+2025-04-25 11:56:52,391 - core.voice.manager - INFO - Initializing voice manager...
+2025-04-25 11:56:52,696 - core.voice.manager - INFO - Adjusting for ambient noise... Please wait.
+2025-04-25 11:56:54,730 - core.voice.manager - INFO - Voice manager initialized successfully
+2025-04-25 11:56:54,731 - jarvis - INFO - Jarvis is ready.
+2025-04-25 11:56:54,732 - core.voice.manager - INFO - Converting text to speech: Hello, I am Jarvis. I'm ready to help you. You can ask me questions or give me commands like 'open google' or 'open notepad'.
+2025-04-25 11:57:04,747 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 11:57:04,748 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 11:57:10,578 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 11:57:10,646 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 11:57:10,647 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 11:57:11,932 - core.voice.manager - INFO - Transcription result: open Google
+2025-04-25 11:57:11,933 - jarvis - INFO - Processing input: open Google
+2025-04-25 11:57:11,935 - core.tools.manager - INFO - Opening website: https://google.com
+2025-04-25 11:57:12,075 - core.voice.manager - INFO - Converting text to speech: I've opened google
+2025-04-25 11:57:13,974 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 11:57:13,975 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 11:57:19,208 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 11:57:19,262 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 11:57:19,263 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 11:57:20,534 - core.voice.manager - INFO - Transcription result: can you open YouTube for me
+2025-04-25 11:57:20,534 - jarvis - INFO - Processing input: can you open YouTube for me
+2025-04-25 11:57:20,535 - core.tools.manager - INFO - Opening website: https://youtube.com
+2025-04-25 11:57:20,554 - core.voice.manager - INFO - Converting text to speech: I've opened youtube
+2025-04-25 11:57:22,613 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 11:57:22,613 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 11:57:27,879 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 11:57:28,050 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 11:57:28,050 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 11:57:29,206 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 11:57:29,206 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 11:57:29,206 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 11:57:29,206 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 11:57:34,400 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 11:57:34,448 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 11:57:34,449 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 11:57:35,691 - core.voice.manager - INFO - Transcription result: what is the capital of India
+2025-04-25 11:57:35,692 - jarvis - INFO - Processing input: what is the capital of India
+2025-04-25 11:57:35,998 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-25 11:57:36,002 - core.voice.manager - INFO - Converting text to speech: The capital of India is New Delhi.
+2025-04-25 11:57:38,848 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 11:57:38,848 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 11:57:44,039 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 11:57:44,130 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 11:57:44,131 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 11:57:45,683 - core.voice.manager - INFO - Transcription result: can you think carefully about what
+2025-04-25 11:57:45,684 - jarvis - INFO - Processing input: can you think carefully about what
+2025-04-25 11:57:47,413 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-25 11:57:47,420 - core.voice.manager - INFO - Converting text to speech: To provide a thoughtful response, I will follow the reasoning steps as outlined.
+
+1. **Let me understand the query**: The question asks me to think carefully about something, but it doesn't specify what that something is. This means I need to consider a broad range of possibilities and clarify the context or subject in question.
+
+2. **I'll analyze the relevant information**: Since the query is open-ended and lacks specific details, I will analyze the nature of the question itself. It seems to be an invitation to engage in a thoughtful or reflective process, possibly about a topic of importance or interest.
+
+3. **Now, I'll synthesize the information**: Synthesizing the information involves combining the understanding and analysis to form a cohesive idea or approach. Given the lack of specificity, a reasonable synthesis could involve considering how one might approach thinking carefully about any given topic. This could involve steps such as defining the topic clearly, gathering relevant information, evaluating that information critically, and drawing well-supported conclusions.
+
+4. **Finally, I'll provide a clear response**: Based on the synthesis, a clear response to the invitation to think carefully about what (presumably a topic or issue of significance) would involve a methodical and reflective process. This process includes:
+   - **Identifying the Subject**: Clearly defining what needs to be thought about.
+   - **Gathering Information**: Collecting all relevant data and knowledge about the subject.
+   - **Critical Evaluation**: Assessing the information for its accuracy, relevance, and implications.
+   - **Reflection and Analysis**: Deeply considering the information, looking for patterns, relationships, and potential outcomes.
+   - **Drawing Conclusions**: Based on the analysis, forming well-supported opinions or decisions.
+
+In conclusion, thinking carefully about any subject involves a systematic approach of defining the topic, gathering and evaluating information, and engaging in deep reflection to form thoughtful conclusions. Without a specific subject provided, this general approach can be applied to a wide range of topics or issues.
+2025-04-25 12:00:07,037 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:00:07,038 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:00:12,907 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:00:12,972 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:00:12,974 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:00:14,083 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:00:14,085 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:00:14,086 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:00:14,087 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:00:19,275 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:00:19,317 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:00:19,333 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:00:20,487 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:00:20,487 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:00:20,487 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:00:20,487 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:00:25,686 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:00:25,733 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:00:25,748 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:00:26,816 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:00:26,816 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:00:26,816 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:00:26,816 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:00:32,009 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:00:32,066 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:00:32,066 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:00:33,128 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:00:33,128 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:00:33,128 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:00:33,128 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:00:38,324 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:00:38,376 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:00:38,376 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:00:39,464 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:00:39,474 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:00:39,476 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:00:39,477 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:00:44,870 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:00:44,925 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:00:44,925 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:00:46,066 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:00:46,066 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:00:46,066 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:00:46,066 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:00:51,260 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:00:51,321 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:00:51,322 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:00:52,383 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:00:52,386 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:00:52,387 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:00:52,387 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:00:57,575 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:00:57,634 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:00:57,635 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:00:58,644 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:00:58,646 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:00:58,647 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:00:58,647 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:01:03,838 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:01:03,896 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:01:03,897 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:01:06,176 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:01:06,178 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:01:06,180 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:01:06,180 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:01:11,369 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:01:11,424 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:01:11,425 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:01:12,428 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:01:12,430 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:01:12,431 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:01:12,431 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:01:17,623 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:01:17,683 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:01:17,684 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:01:18,794 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:01:18,796 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:01:18,797 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:01:18,797 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:01:24,006 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:01:24,076 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:01:24,077 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:01:25,430 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:01:25,431 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:01:25,432 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:01:25,433 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:01:30,653 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:01:30,704 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:01:30,705 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:01:31,787 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:01:31,789 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:01:31,789 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:01:31,790 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:01:36,974 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:01:37,049 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:01:37,049 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:01:38,468 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:01:38,470 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:01:38,470 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:01:38,471 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:01:43,663 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:01:43,722 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:01:43,722 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:01:44,784 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:01:44,784 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:01:44,784 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:01:44,784 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:01:49,983 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:01:50,034 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:01:50,034 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:01:50,996 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:01:50,996 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:01:50,996 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:01:50,996 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:01:56,225 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:01:56,275 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:01:56,275 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:01:57,556 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:01:57,558 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:01:57,560 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:01:57,561 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:02:02,837 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:02:02,892 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:02:02,893 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:02:04,136 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:02:04,138 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:02:04,138 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:02:04,139 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:02:09,351 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:02:09,398 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:02:09,399 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:02:11,067 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:02:11,067 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:02:11,067 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:02:11,067 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:02:16,269 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:02:16,331 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:02:16,331 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:02:17,471 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:02:17,487 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:02:17,487 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:02:17,487 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:02:22,733 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:02:22,783 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:02:22,784 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:02:23,909 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:02:23,909 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:02:23,909 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:02:23,909 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:02:29,112 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:02:29,175 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:02:29,175 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:02:30,294 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:02:30,309 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:02:30,311 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:02:30,311 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:02:35,545 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:02:35,593 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:02:35,594 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:02:36,661 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:02:36,677 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:02:36,677 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:02:36,678 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:02:41,861 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:02:41,925 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:02:41,925 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:02:43,097 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:02:43,097 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:02:43,097 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:02:43,097 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:02:48,301 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:02:48,359 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:02:48,360 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:02:49,394 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:02:49,394 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:02:49,394 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:02:49,394 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:02:54,600 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:02:54,636 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:02:54,652 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:02:55,757 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:02:55,757 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:02:55,757 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:02:55,757 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:03:00,944 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:03:01,003 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:03:01,003 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:03:02,066 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:03:02,066 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:03:02,066 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:03:02,066 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:03:07,269 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:03:07,315 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:03:07,315 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:03:08,405 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:03:08,405 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:03:08,405 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:03:08,405 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:03:13,603 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:03:13,654 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:03:13,654 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:03:17,096 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:03:17,097 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:03:17,098 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:03:17,099 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:03:22,296 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:03:22,356 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:03:22,356 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:03:23,345 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:03:23,347 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:03:23,348 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:03:23,348 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:03:28,571 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:03:28,631 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:03:28,632 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:03:29,706 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:03:29,706 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:03:29,706 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:03:29,706 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:03:34,911 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:03:34,979 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:03:34,980 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:03:36,179 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:03:36,181 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:03:36,182 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:03:36,182 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:03:41,360 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:03:41,428 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:03:41,429 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:03:42,500 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:03:42,502 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:03:42,503 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:03:42,503 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:03:47,755 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:03:47,799 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:03:47,799 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:03:48,872 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:03:48,874 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:03:48,874 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:03:48,875 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:03:54,071 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:03:54,115 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:03:54,116 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:03:55,126 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:03:55,129 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:03:55,130 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:03:55,130 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:04:00,313 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:04:00,377 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:04:00,378 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:04:01,541 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:04:01,543 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:04:01,544 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:04:01,544 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:04:06,736 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:04:06,791 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:04:06,792 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:04:07,897 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:04:07,899 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:04:07,900 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:04:07,901 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:04:13,097 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:04:13,152 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:04:13,153 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:04:14,261 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:04:14,263 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:04:14,263 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:04:14,264 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:04:19,459 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:04:19,513 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:04:19,513 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:04:20,447 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:04:20,449 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:04:20,449 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:04:20,450 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:04:25,645 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:04:25,706 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:04:25,706 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:04:26,679 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:04:26,681 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:04:26,682 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:04:26,682 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:04:31,872 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:04:31,921 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:04:31,922 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:04:33,157 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:04:33,159 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:04:33,160 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:04:33,161 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:04:38,353 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:04:38,415 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:04:38,416 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:04:39,530 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:04:39,530 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:04:39,530 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:04:39,530 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:04:44,724 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:04:44,743 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:04:44,743 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:04:45,804 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:04:45,806 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:04:45,806 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:04:45,807 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:04:50,995 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:04:51,057 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:04:51,058 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:04:52,264 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:04:52,266 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:04:52,266 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:04:52,267 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:04:57,450 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:04:57,518 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:04:57,519 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:04:58,588 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:04:58,591 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:04:58,591 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:04:58,591 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:05:03,783 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:05:03,833 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:05:03,834 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:05:05,004 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:05:05,006 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:05:05,006 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:05:05,007 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:05:10,196 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:05:10,249 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:05:10,250 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:05:10,923 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:05:10,925 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:05:10,926 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:05:10,926 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:05:16,127 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:05:16,199 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:05:16,200 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:05:17,411 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:05:17,413 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:05:17,413 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:05:17,414 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:05:22,596 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:05:22,659 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:05:22,660 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:05:23,638 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:05:23,640 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:05:23,641 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:05:23,641 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:05:28,858 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:05:28,922 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:05:28,924 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:05:30,549 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:05:30,551 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:05:30,551 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:05:30,552 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:05:35,744 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:05:35,803 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:05:35,804 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:05:36,773 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:05:36,776 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:05:36,776 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:05:36,776 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:05:41,969 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:05:42,029 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:05:42,030 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:05:42,707 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:05:42,707 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:05:42,707 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:05:42,707 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:05:47,900 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:05:47,967 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:05:47,968 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:05:48,917 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:05:48,919 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:05:48,919 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:05:48,920 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:05:54,107 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:05:54,156 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:05:54,157 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:05:55,316 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:05:55,318 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:05:55,318 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:05:55,318 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:06:00,506 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:06:00,554 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:06:00,555 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:06:01,733 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:06:01,735 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:06:01,736 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:06:01,736 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:06:06,924 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:06:06,981 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:06:06,982 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:06:08,026 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:06:08,028 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:06:08,029 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:06:08,030 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:06:13,215 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:06:13,274 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:06:13,275 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:06:15,481 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:06:15,483 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:06:15,484 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:06:15,484 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:06:20,671 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:06:20,724 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:06:20,725 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:06:21,836 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:06:21,838 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:06:21,839 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:06:21,839 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:06:27,027 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:06:27,077 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:06:27,077 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:06:28,313 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:06:28,315 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:06:28,316 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:06:28,316 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:06:33,504 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:06:33,568 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:06:33,569 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:06:34,665 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:06:34,667 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:06:34,668 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:06:34,668 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:06:39,854 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:06:39,893 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:06:39,908 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:06:40,974 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:06:40,976 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:06:40,976 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:06:40,977 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:06:46,168 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:06:46,234 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:06:46,235 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:06:47,263 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:06:47,265 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:06:47,266 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:06:47,267 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:06:52,469 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:06:52,527 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:06:52,528 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:06:55,249 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:06:55,251 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:06:55,252 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:06:55,252 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:07:00,439 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:07:00,499 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:07:00,500 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:07:01,664 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:07:01,666 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:07:01,667 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:07:01,667 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:07:06,853 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:07:06,903 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:07:06,904 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:07:07,942 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:07:07,944 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:07:07,944 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:07:07,945 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:07:13,132 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:07:13,186 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:07:13,187 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:07:14,305 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:07:14,307 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:07:14,308 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:07:14,309 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:07:19,502 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:07:19,569 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:07:19,569 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:07:20,691 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:07:20,693 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:07:20,693 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:07:20,693 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:07:25,877 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:07:25,940 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:07:25,940 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:07:27,061 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:07:27,061 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:07:27,061 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:07:27,061 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:07:32,275 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:07:32,323 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:07:32,323 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:07:33,422 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:07:33,422 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:07:33,422 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:07:33,422 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:07:38,632 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:07:38,694 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:07:38,695 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:07:40,139 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:07:40,141 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:07:40,141 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:07:40,142 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:07:45,329 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:07:45,387 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:07:45,388 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:07:46,465 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:07:46,467 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:07:46,468 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:07:46,468 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:07:51,655 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:07:51,704 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:07:51,714 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:07:52,879 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:07:52,881 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:07:52,881 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:07:52,882 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:07:58,065 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:07:58,093 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:07:58,109 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:07:59,553 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:07:59,553 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:07:59,553 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:07:59,553 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:08:04,766 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:08:04,815 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:08:04,815 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:08:06,092 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:08:06,092 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:08:06,092 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:08:06,092 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:08:11,290 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:08:11,339 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:08:11,340 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:08:12,433 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:08:12,435 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:08:12,435 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:08:12,436 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:08:17,624 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:08:17,766 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:08:17,767 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:08:18,874 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:08:18,876 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:08:18,876 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:08:18,877 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:08:24,074 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:08:24,126 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:08:24,127 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:08:25,263 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:08:25,265 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:08:25,266 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:08:25,266 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:08:30,453 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:08:30,508 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:08:30,509 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:08:31,586 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:08:31,588 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:08:31,588 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:08:31,589 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:08:36,777 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:08:36,836 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:08:36,837 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:08:37,927 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:08:37,927 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:08:37,927 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:08:37,927 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:08:43,121 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:08:43,174 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:08:43,175 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:08:44,371 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:08:44,371 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:08:44,371 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:08:44,386 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:08:49,573 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:08:49,634 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:08:49,635 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:08:50,753 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:08:50,753 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:08:50,753 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:08:50,753 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:08:55,953 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:08:56,004 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:08:56,004 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:08:57,176 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:08:57,176 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:08:57,176 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:08:57,176 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:09:02,376 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:09:02,425 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:09:02,425 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:09:03,581 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:09:03,581 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:09:03,581 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:09:03,581 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:09:08,765 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:09:08,832 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:09:08,832 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:09:10,046 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:09:10,047 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:09:10,047 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:09:10,047 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:09:15,237 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:09:15,275 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:09:15,275 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:09:16,499 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:09:16,499 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:09:16,499 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:09:16,499 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:09:21,702 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:09:21,756 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:09:21,757 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:09:22,835 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:09:22,835 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:09:22,835 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:09:22,835 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:09:28,035 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:09:28,096 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:09:28,097 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:09:29,298 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:09:29,300 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:09:29,301 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:09:29,302 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:09:34,511 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:09:34,567 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:09:34,568 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:09:35,723 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:09:35,725 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:09:35,726 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:09:35,726 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:09:40,918 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:09:40,982 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:09:40,983 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:09:42,100 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:09:42,100 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:09:42,100 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:09:42,100 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:09:47,313 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:09:47,376 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:09:47,377 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:09:48,514 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:09:48,516 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:09:48,517 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:09:48,517 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:09:53,710 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:09:53,769 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:09:53,771 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:09:54,877 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:09:54,877 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:09:54,877 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:09:54,877 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:10:00,070 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:10:00,140 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:10:00,141 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:10:01,188 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:10:01,189 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:10:01,190 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:10:01,190 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:10:06,381 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:10:06,434 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:10:06,435 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:10:07,645 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:10:07,647 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:10:07,647 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:10:07,648 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:10:12,846 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:10:12,905 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:10:12,906 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:10:13,991 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:10:13,991 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:10:13,991 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:10:13,991 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:10:19,190 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:10:19,248 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:10:19,248 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:10:20,442 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:10:20,444 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:10:20,445 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:10:20,445 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:10:25,664 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:10:25,714 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:10:25,715 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:10:26,893 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:10:26,893 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:10:26,893 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:10:26,893 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:10:32,104 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:10:32,164 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:10:32,165 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:10:33,327 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:10:33,329 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:10:33,330 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:10:33,330 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:10:38,538 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:10:38,590 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:10:38,591 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:10:39,760 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:10:39,762 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:10:39,763 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:10:39,763 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:10:44,954 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:10:45,062 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:10:45,063 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:10:46,232 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:10:46,234 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:10:46,234 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:10:46,235 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:10:51,424 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:10:51,488 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:10:51,489 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:10:52,595 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:10:52,597 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:10:52,598 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:10:52,598 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:10:57,787 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:10:57,836 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:10:57,837 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:10:58,904 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:10:58,911 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:10:58,912 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:10:58,912 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:11:04,106 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:11:04,169 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:11:04,170 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:11:05,302 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:11:05,304 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:11:05,305 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:11:05,305 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:11:10,485 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:11:10,547 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:11:10,548 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:11:11,643 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:11:11,645 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:11:11,645 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:11:11,646 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:11:16,863 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:11:16,930 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:11:16,931 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:11:17,984 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:11:17,986 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:11:17,987 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:11:17,987 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:11:23,175 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:11:23,235 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:11:23,235 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:11:24,396 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:11:24,398 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:11:24,398 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:11:24,399 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:11:29,594 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:11:29,649 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:11:29,650 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:11:30,860 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:11:30,862 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:11:30,862 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:11:30,863 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:11:36,056 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:11:36,122 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:11:36,123 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:11:37,172 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:11:37,175 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:11:37,176 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:11:37,176 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:11:42,369 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:11:42,426 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:11:42,427 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:11:43,642 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:11:43,644 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:11:43,644 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:11:43,645 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:11:48,835 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:11:48,894 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:11:48,894 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:11:49,988 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:11:49,988 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:11:49,988 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:11:49,988 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:11:55,183 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:11:55,247 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:11:55,248 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:11:56,410 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:11:56,412 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:11:56,412 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:11:56,413 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:12:01,599 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:12:01,651 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:12:01,653 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:12:04,007 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:12:04,009 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:12:04,010 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:12:04,010 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:12:09,204 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:12:09,261 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:12:09,261 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:12:10,494 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:12:10,496 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:12:10,497 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:12:10,497 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:12:15,689 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:12:15,750 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:12:15,751 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:12:16,799 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:12:16,801 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:12:16,802 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:12:16,802 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:12:21,991 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:12:22,043 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:12:22,044 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:12:23,149 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:12:23,150 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:12:23,151 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:12:23,151 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:12:28,331 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:12:28,403 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:12:28,404 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:12:29,520 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:12:29,522 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:12:29,522 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:12:29,522 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:12:34,714 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:12:34,763 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:12:34,763 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:12:36,347 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:12:36,349 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:12:36,349 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:12:36,350 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:12:41,528 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:12:41,595 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:12:41,595 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:12:42,745 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:12:42,747 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:12:42,748 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:12:42,748 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:12:47,941 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:12:47,995 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:12:47,996 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:12:49,119 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:12:49,121 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:12:49,122 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:12:49,123 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:12:54,300 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:12:54,366 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:12:54,368 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:12:55,523 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:12:55,523 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:12:55,523 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:12:55,523 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:13:00,839 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:13:00,904 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:13:00,905 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:13:01,998 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:13:01,999 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:13:02,000 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:13:02,001 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:13:07,194 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:13:07,254 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:13:07,255 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:13:08,354 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:13:08,355 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:13:08,356 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:13:08,356 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:13:13,545 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:13:13,603 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:13:13,604 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:13:14,664 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:13:14,666 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:13:14,667 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:13:14,667 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:13:19,870 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:13:19,911 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:13:19,911 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:13:21,144 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:13:21,144 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:13:21,144 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:13:21,144 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:13:26,338 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:13:26,401 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:13:26,402 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:13:27,483 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:13:27,487 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:13:27,487 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:13:27,487 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:13:32,698 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:13:32,772 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:13:32,772 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:13:36,919 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:13:36,920 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:13:36,921 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:13:36,921 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:13:42,118 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:13:42,177 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:13:42,178 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:13:43,315 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:13:43,317 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:13:43,317 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:13:43,317 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:13:48,514 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:13:48,571 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:13:48,572 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:13:49,699 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:13:49,701 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:13:49,701 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:13:49,702 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:13:54,888 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:13:54,942 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:13:54,943 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:13:56,110 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:13:56,112 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:13:56,113 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:13:56,113 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:14:01,297 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:14:01,357 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:14:01,358 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:14:02,437 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:14:02,440 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:14:02,441 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:14:02,441 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:14:07,664 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:14:07,741 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:14:07,742 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:14:08,792 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:14:08,794 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:14:08,794 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:14:08,795 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:14:13,988 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:14:14,045 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:14:14,046 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:14:16,040 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:14:16,042 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:14:16,043 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:14:16,043 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:14:21,236 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:14:21,294 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:14:21,295 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:14:22,343 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:14:22,345 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:14:22,346 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:14:22,346 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:14:27,524 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:14:27,588 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:14:27,589 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:14:28,661 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:14:28,663 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:14:28,664 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:14:28,664 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:14:33,849 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:14:33,894 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:14:33,894 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:14:34,545 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:14:34,547 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:14:34,548 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:14:34,548 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:14:39,736 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:14:39,796 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:14:39,797 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:14:40,752 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:14:40,754 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:14:40,755 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:14:40,755 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:14:45,941 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:14:46,002 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:14:46,003 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:14:47,065 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:14:47,065 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:14:47,065 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:14:47,065 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:14:52,261 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:14:52,318 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:14:52,319 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:14:53,768 - core.voice.manager - INFO - Transcription result: what is capital of India
+2025-04-25 12:14:53,768 - jarvis - INFO - Processing input: what is capital of India
+2025-04-25 12:14:54,371 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-25 12:14:54,374 - core.voice.manager - INFO - Converting text to speech: The capital of India is New Delhi.
+2025-04-25 12:14:57,220 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:14:57,221 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:15:02,407 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:15:02,457 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:15:02,458 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:15:03,862 - core.voice.manager - INFO - Transcription result: thank you
+2025-04-25 12:15:03,863 - jarvis - INFO - Processing input: thank you
+2025-04-25 12:15:04,168 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-25 12:15:04,170 - core.voice.manager - INFO - Converting text to speech: You're welcome. Is there anything else I can help you with?
+2025-04-25 12:15:08,866 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:15:08,866 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:15:14,638 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:15:14,695 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:15:14,695 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:15:16,645 - core.voice.manager - INFO - Transcription result: no I think that's enough for today
+2025-04-25 12:15:16,646 - jarvis - INFO - Processing input: no I think that's enough for today
+2025-04-25 12:15:16,970 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-25 12:15:16,972 - core.voice.manager - INFO - Converting text to speech: It was a pleasure assisting you. If you need anything else in the future, feel free to reach out. Have a great day.
+2025-04-25 12:15:25,729 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:15:25,729 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:15:31,535 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:15:31,600 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:15:31,601 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:15:32,768 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:15:32,770 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:15:32,771 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:15:32,772 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:15:37,958 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:15:38,016 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:15:38,017 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:15:39,139 - core.voice.manager - WARNING - Google Speech Recognition could not understand audio
+2025-04-25 12:15:39,141 - core.voice.manager - WARNING - Sphinx could not understand audio
+2025-04-25 12:15:39,142 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 12:15:39,142 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 12:15:44,328 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 12:15:44,387 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:15:44,388 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 12:15:45,792 - core.voice.manager - INFO - Transcription result: goodbye
+2025-04-25 12:15:45,793 - core.voice.manager - INFO - Converting text to speech: Goodbye! Have a great day!
+2025-04-25 12:15:48,887 - __main__ - INFO - Shutting down Jarvis...
+2025-04-25 12:15:48,887 - jarvis - INFO - Shutting down Jarvis...
+2025-04-25 12:15:48,888 - core.llm.manager - INFO - Shutting down Groq LLM manager...
+2025-04-25 12:15:48,888 - core.memory.manager - INFO - Shutting down memory manager...
+2025-04-25 12:15:48,889 - core.rag.manager - INFO - Shutting down RAG manager...
+2025-04-25 12:15:48,890 - core.tools.manager - INFO - Shutting down tools manager...
+2025-04-25 12:15:48,890 - core.agent.manager - INFO - Shutting down agent manager...
+2025-04-25 12:15:48,890 - core.voice.manager - INFO - Shutting down voice manager...
+2025-04-25 12:15:48,891 - jarvis - INFO - Jarvis shut down successfully.
+2025-04-25 12:15:48,891 - __main__ - INFO - Jarvis shut down successfully
+2025-04-25 14:11:59,064 - __main__ - INFO - Initializing Jarvis...
+2025-04-25 14:11:59,171 - jarvis - INFO - Initializing Jarvis Brain...
+2025-04-25 14:11:59,263 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\akhil\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-04-25 14:11:59,263 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\akhil\AppData\Local\Programs\Python\Python312\Lib\site-packages\comtypes\gen'
+2025-04-25 14:11:59,489 - core.voice.manager - INFO - Voice data directory: D:\Projects\Jarvis\data\voice
+2025-04-25 14:11:59,490 - core.voice.manager - INFO - Available audio devices:
+2025-04-25 14:11:59,490 - core.voice.manager - INFO - [0] Microsoft Sound Mapper - Input (inputs: 2, outputs: 0)
+2025-04-25 14:11:59,490 - core.voice.manager - INFO - [1] Microphone Array (Realtek(R) Au (inputs: 2, outputs: 0)
+2025-04-25 14:11:59,491 - core.voice.manager - INFO - [2] Stereo Mix (Realtek(R) Audio) (inputs: 2, outputs: 0)
+2025-04-25 14:11:59,491 - core.voice.manager - INFO - [3] Headset (ZEB-COUNTY5) (inputs: 2, outputs: 0)
+2025-04-25 14:11:59,492 - core.voice.manager - INFO - [4] Microsoft Sound Mapper - Output (inputs: 0, outputs: 2)
+2025-04-25 14:11:59,492 - core.voice.manager - INFO - [5] Headphones (ZEB-COUNTY5) (inputs: 0, outputs: 2)
+2025-04-25 14:11:59,493 - core.voice.manager - INFO - [6] Speaker (Realtek(R) Audio) (inputs: 0, outputs: 2)
+2025-04-25 14:11:59,493 - core.voice.manager - INFO - [7] Primary Sound Capture Driver (inputs: 2, outputs: 0)
+2025-04-25 14:11:59,494 - core.voice.manager - INFO - [8] Microphone Array (Realtek(R) Audio) (inputs: 2, outputs: 0)
+2025-04-25 14:11:59,494 - core.voice.manager - INFO - [9] Stereo Mix (Realtek(R) Audio) (inputs: 2, outputs: 0)
+2025-04-25 14:11:59,494 - core.voice.manager - INFO - [10] Headset (ZEB-COUNTY5) (inputs: 2, outputs: 0)
+2025-04-25 14:11:59,495 - core.voice.manager - INFO - [11] Primary Sound Driver (inputs: 0, outputs: 2)
+2025-04-25 14:11:59,495 - core.voice.manager - INFO - [12] Headphones (ZEB-COUNTY5) (inputs: 0, outputs: 2)
+2025-04-25 14:11:59,496 - core.voice.manager - INFO - [13] Speaker (Realtek(R) Audio) (inputs: 0, outputs: 2)
+2025-04-25 14:11:59,496 - core.voice.manager - INFO - [14] Speaker (Realtek(R) Audio) (inputs: 0, outputs: 2)
+2025-04-25 14:11:59,497 - core.voice.manager - INFO - [15] Headphones (ZEB-COUNTY5) (inputs: 0, outputs: 2)
+2025-04-25 14:11:59,498 - core.voice.manager - INFO - [16] Stereo Mix (Realtek(R) Audio) (inputs: 2, outputs: 0)
+2025-04-25 14:11:59,499 - core.voice.manager - INFO - [17] Headset (ZEB-COUNTY5) (inputs: 1, outputs: 0)
+2025-04-25 14:11:59,499 - core.voice.manager - INFO - [18] Microphone Array (Realtek(R) Audio) (inputs: 2, outputs: 0)
+2025-04-25 14:11:59,500 - core.voice.manager - INFO - [19] Input () (inputs: 2, outputs: 0)
+2025-04-25 14:11:59,501 - core.voice.manager - INFO - [20] Mic in at front panel (black) (Mic in at front panel (black)) (inputs: 2, outputs: 0)
+2025-04-25 14:11:59,502 - core.voice.manager - INFO - [21] Headphones (Realtek HD Audio 2nd output) (inputs: 0, outputs: 2)
+2025-04-25 14:11:59,503 - core.voice.manager - INFO - [22] Speakers 1 (Realtek HD Audio output with HAP) (inputs: 0, outputs: 2)
+2025-04-25 14:11:59,503 - core.voice.manager - INFO - [23] Speakers 2 (Realtek HD Audio output with HAP) (inputs: 0, outputs: 6)
+2025-04-25 14:11:59,504 - core.voice.manager - INFO - [24] PC Speaker (Realtek HD Audio output with HAP) (inputs: 2, outputs: 0)
+2025-04-25 14:11:59,505 - core.voice.manager - INFO - [25] Stereo Mix (Realtek HD Audio Stereo input) (inputs: 2, outputs: 0)
+2025-04-25 14:11:59,505 - core.voice.manager - INFO - [26] Microphone Array (Realtek HD Audio Mic input) (inputs: 2, outputs: 0)
+2025-04-25 14:11:59,506 - core.voice.manager - INFO - [27] Headphones () (inputs: 0, outputs: 2)
+2025-04-25 14:11:59,507 - core.voice.manager - INFO - [28] Headset (@System32\drivers\bthhfenum.sys,#2;%1 Hands-Free%0
+;(Rockerz 450)) (inputs: 0, outputs: 1)
+2025-04-25 14:11:59,508 - core.voice.manager - INFO - [29] Headset (@System32\drivers\bthhfenum.sys,#2;%1 Hands-Free%0
+;(Rockerz 450)) (inputs: 1, outputs: 0)
+2025-04-25 14:11:59,508 - core.voice.manager - INFO - [30] Headset (@System32\drivers\bthhfenum.sys,#2;%1 Hands-Free%0
+;(ZEB-COUNTY5)) (inputs: 0, outputs: 1)
+2025-04-25 14:11:59,509 - core.voice.manager - INFO - [31] Headset (@System32\drivers\bthhfenum.sys,#2;%1 Hands-Free%0
+;(ZEB-COUNTY5)) (inputs: 1, outputs: 0)
+2025-04-25 14:11:59,510 - core.voice.manager - INFO - [32] Headphones () (inputs: 0, outputs: 2)
+2025-04-25 14:11:59,510 - core.voice.manager - INFO - [33] Headphones () (inputs: 0, outputs: 2)
+2025-04-25 14:11:59,511 - core.voice.manager - INFO - [34] Output (@System32\drivers\bthhfenum.sys,#4;%1 Hands-Free HF Audio%0
+;(Akhil)) (inputs: 0, outputs: 1)
+2025-04-25 14:11:59,512 - core.voice.manager - INFO - [35] Input (@System32\drivers\bthhfenum.sys,#4;%1 Hands-Free HF Audio%0
+;(Akhil)) (inputs: 1, outputs: 0)
+2025-04-25 14:11:59,513 - core.voice.manager - INFO - [36] Headset (@System32\drivers\bthhfenum.sys,#2;%1 Hands-Free%0
+;(Airdopes ATOM 81)) (inputs: 0, outputs: 1)
+2025-04-25 14:11:59,514 - core.voice.manager - INFO - [37] Headset (@System32\drivers\bthhfenum.sys,#2;%1 Hands-Free%0
+;(Airdopes ATOM 81)) (inputs: 1, outputs: 0)
+2025-04-25 14:11:59,515 - core.voice.manager - INFO - Using default input device: Microphone Array (Realtek(R) Au
+2025-04-25 14:11:59,515 - jarvis - INFO - Jarvis Brain initialized successfully
+2025-04-25 14:11:59,516 - jarvis - INFO - Starting Jarvis...
+2025-04-25 14:11:59,517 - core.llm.manager - INFO - Initializing Groq LLM manager...
+2025-04-25 14:12:00,323 - core.llm.manager - INFO - Initialized Groq with model: llama-3.3-70b-versatile
+2025-04-25 14:12:00,324 - core.memory.manager - INFO - Initializing memory manager...
+2025-04-25 14:12:00,324 - core.rag.manager - INFO - Initializing RAG manager...
+2025-04-25 14:12:00,325 - core.tools.manager - INFO - Initializing tools manager...
+2025-04-25 14:12:00,326 - core.tools.manager - INFO - Found chrome at C:\Program Files\Google\Chrome\Application\chrome.exe
+2025-04-25 14:12:00,326 - core.tools.manager - WARNING - Could not find firefox at C:\Program Files\Mozilla Firefox\firefox.exe
+2025-04-25 14:12:00,327 - core.tools.manager - INFO - Found edge at C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+2025-04-25 14:12:00,328 - core.tools.manager - INFO - Found notepad at C:\Windows\System32\notepad.exe
+2025-04-25 14:12:00,328 - core.tools.manager - INFO - Found calculator at C:\Windows\System32\calc.exe
+2025-04-25 14:12:00,329 - core.tools.manager - INFO - Found explorer at C:\Windows\explorer.exe
+2025-04-25 14:12:00,330 - core.agent.manager - INFO - Initializing agent manager...
+2025-04-25 14:12:00,332 - core.voice.manager - INFO - Initializing voice manager...
+2025-04-25 14:12:00,839 - core.voice.manager - INFO - Adjusting for ambient noise... Please wait.
+2025-04-25 14:12:02,877 - core.voice.manager - INFO - Voice manager initialized successfully
+2025-04-25 14:12:02,878 - jarvis - INFO - Jarvis is ready.
+2025-04-25 14:12:02,879 - core.voice.manager - INFO - Converting text to speech: Hello, I am Jarvis. I'm ready to help you. You can ask me questions or give me commands like 'open google' or 'open notepad'.
+2025-04-25 14:12:12,900 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 14:12:12,900 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 14:12:18,708 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 14:12:18,770 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 14:12:18,771 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 14:12:20,272 - core.voice.manager - INFO - Transcription result: can you tell me the capital of India
+2025-04-25 14:12:20,273 - jarvis - INFO - Processing input: can you tell me the capital of India
+2025-04-25 14:12:20,831 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-25 14:12:20,835 - core.voice.manager - INFO - Converting text to speech: The capital of India is New Delhi.
+2025-04-25 14:12:23,684 - core.voice.manager - INFO - Recording audio for 5.0 seconds...
+2025-04-25 14:12:23,686 - core.voice.manager - INFO - Recording with: Microphone Array (Realtek(R) Au at 44100Hz with 1 channel(s)
+2025-04-25 14:12:28,874 - core.voice.manager - INFO - Saving audio to: D:\Projects\Jarvis\data\voice\recording.wav
+2025-04-25 14:12:28,930 - core.voice.manager - INFO - Audio file created successfully: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 14:12:28,931 - core.voice.manager - INFO - Transcribing audio file: D:\Projects\Jarvis\data\voice\recording.wav (size: 441044 bytes)
+2025-04-25 14:12:30,364 - core.voice.manager - INFO - Transcription result: can you tell me the average temperature in Dubai
+2025-04-25 14:12:30,365 - jarvis - INFO - Processing input: can you tell me the average temperature in Dubai
+2025-04-25 14:12:31,230 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-25 14:12:31,233 - core.voice.manager - INFO - Converting text to speech: The average temperature in Dubai varies throughout the year. 
+
+During the summer months (June to September), the average high temperature can reach as high as 41°C (106°F), while the average low temperature is around 28°C (82°F).
+
+In the winter months (December to February), the average high temperature is around 24°C (75°F), and the average low temperature is around 15°C (59°F).
+
+The average annual temperature in Dubai is around 28°C (82°F). However, it's not uncommon for the temperature to soar above 45°C (113°F) during heatwaves in the summer.
+
+It's worth noting that Dubai is a desert city, and the temperature can fluctuate significantly between day and night, so it's essential to stay hydrated and take necessary precautions to protect yourself from the heat.
+2025-04-25 23:32:13,971 - __main__ - INFO - Initializing Jarvis...
+2025-04-25 23:32:14,143 - jarvis - INFO - Initializing Jarvis Brain...
+2025-04-25 23:32:14,215 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\akhil\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-04-25 23:32:14,216 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\akhil\AppData\Local\Programs\Python\Python312\Lib\site-packages\comtypes\gen'
+2025-04-25 23:32:14,621 - core.voice.manager - INFO - Voice data directory: D:\Projects\Jarvis\data\voice
+2025-04-25 23:32:14,693 - __main__ - ERROR - Fatal error: Failed to create a model
+2025-04-25 23:43:09,285 - __main__ - INFO - Initializing Jarvis...
+2025-04-25 23:43:09,436 - jarvis - INFO - Initializing Jarvis Brain...
+2025-04-25 23:43:09,496 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\akhil\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-04-25 23:43:09,497 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\akhil\AppData\Local\Programs\Python\Python312\Lib\site-packages\comtypes\gen'
+2025-04-25 23:43:09,676 - core.voice.manager - INFO - Voice data directory: D:\Projects\Jarvis\data\voice
+2025-04-25 23:43:09,735 - __main__ - ERROR - Fatal error: Failed to create a model

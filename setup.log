@@ -1,0 +1,66 @@
+2025-04-25 23:31:50,327 - __main__ - INFO - Starting setup...
+2025-04-25 23:31:50,327 - __main__ - INFO - Creating directories...
+2025-04-25 23:31:50,328 - __main__ - INFO - Created directory: models/nlp
+2025-04-25 23:31:50,328 - __main__ - INFO - Created directory: models/wake_word
+2025-04-25 23:31:50,328 - __main__ - INFO - Created directory: data/voice
+2025-04-25 23:31:50,329 - __main__ - INFO - Created directory: data/conversation
+2025-04-25 23:31:50,329 - __main__ - INFO - Created directory: logs
+2025-04-25 23:31:50,329 - __main__ - INFO - Directories created successfully
+2025-04-25 23:31:50,330 - __main__ - INFO - Installing dependencies...
+2025-04-25 23:31:50,330 - __main__ - INFO - Running: Installing requirements
+2025-04-25 23:31:54,283 - __main__ - ERROR - Command failed: Installing requirements
+2025-04-25 23:31:54,283 - __main__ - ERROR - Error: WARNING: Ignoring invalid distribution ~otebook (C:\Users\akhil\AppData\Local\Programs\Python\Python312\Lib\site-packages)
+ERROR: Could not install packages due to an OSError: Could not find a suitable TLS CA certificate bundle, invalid path: C:\Program Files\PostgreSQL\17\ssl\certs\ca-bundle.crt
+
+
+2025-04-25 23:31:54,283 - __main__ - ERROR - Failed to install requirements
+2025-04-25 23:31:54,284 - __main__ - ERROR - Setup failed
+2025-04-25 23:38:33,301 - __main__ - INFO - Starting setup...
+2025-04-25 23:38:33,301 - __main__ - INFO - Creating directories...
+2025-04-25 23:38:33,302 - __main__ - INFO - Created directory: models/nlp
+2025-04-25 23:38:33,302 - __main__ - INFO - Created directory: models/wake_word
+2025-04-25 23:38:33,302 - __main__ - INFO - Created directory: data/voice
+2025-04-25 23:38:33,303 - __main__ - INFO - Created directory: data/conversation
+2025-04-25 23:38:33,303 - __main__ - INFO - Created directory: logs
+2025-04-25 23:38:33,303 - __main__ - INFO - Directories created successfully
+2025-04-25 23:38:33,304 - __main__ - INFO - Installing dependencies...
+2025-04-25 23:38:33,304 - __main__ - INFO - Checking Python version...
+2025-04-25 23:38:33,304 - __main__ - WARNING - Python version 3.12 may have compatibility issues with some packages.
+2025-04-25 23:38:33,304 - __main__ - WARNING - Consider using Python 3.8-3.11 for better compatibility.
+2025-04-25 23:38:33,304 - __main__ - INFO - Python version 3.12 is compatible.
+2025-04-25 23:38:33,304 - __main__ - INFO - Fixing SSL certificate issues...
+2025-04-25 23:38:33,320 - __main__ - INFO - SSL certificate issues fixed
+2025-04-25 23:38:33,321 - __main__ - INFO - Running: Upgrading pip
+2025-04-25 23:38:39,961 - __main__ - INFO - Command completed successfully: Upgrading pip
+2025-04-25 23:38:39,961 - __main__ - INFO - Running: Installing setuptools and wheel
+2025-04-25 23:39:08,474 - __main__ - INFO - Command completed successfully: Installing setuptools and wheel
+2025-04-25 23:39:08,474 - __main__ - INFO - Running: Installing numpy>=1.21.0
+2025-04-25 23:39:14,135 - __main__ - INFO - Command completed successfully: Installing numpy>=1.21.0
+2025-04-25 23:39:14,136 - __main__ - INFO - Running: Installing pandas>=2.0.0
+2025-04-25 23:39:18,841 - __main__ - INFO - Command completed successfully: Installing pandas>=2.0.0
+2025-04-25 23:39:18,841 - __main__ - INFO - Running: Installing scipy>=1.10.0
+2025-04-25 23:39:23,512 - __main__ - INFO - Command completed successfully: Installing scipy>=1.10.0
+2025-04-25 23:39:23,512 - __main__ - INFO - Running: Installing PyYAML>=6.0
+2025-04-25 23:39:28,121 - __main__ - INFO - Command completed successfully: Installing PyYAML>=6.0
+2025-04-25 23:39:28,121 - __main__ - INFO - Running: Installing python-dotenv>=1.0.0
+2025-04-25 23:39:32,722 - __main__ - INFO - Command completed successfully: Installing python-dotenv>=1.0.0
+2025-04-25 23:39:32,724 - __main__ - INFO - Running: Installing aiohttp>=3.8.0
+2025-04-25 23:39:37,577 - __main__ - INFO - Command completed successfully: Installing aiohttp>=3.8.0
+2025-04-25 23:39:37,577 - __main__ - INFO - Running: Installing asyncio>=3.4.3
+2025-04-25 23:39:42,226 - __main__ - INFO - Command completed successfully: Installing asyncio>=3.4.3
+2025-04-25 23:39:42,227 - __main__ - INFO - Running: Installing typing-extensions>=4.5.0
+2025-04-25 23:39:46,872 - __main__ - INFO - Command completed successfully: Installing typing-extensions>=4.5.0
+2025-04-25 23:39:46,873 - __main__ - INFO - Running: Installing sounddevice>=0.4.4
+2025-04-25 23:39:51,481 - __main__ - INFO - Command completed successfully: Installing sounddevice>=0.4.4
+2025-04-25 23:39:51,481 - __main__ - INFO - Running: Installing soundfile>=0.10.3
+2025-04-25 23:39:56,072 - __main__ - INFO - Command completed successfully: Installing soundfile>=0.10.3
+2025-04-25 23:39:56,072 - __main__ - INFO - Running: Installing pyttsx3>=2.90
+2025-04-25 23:40:00,764 - __main__ - INFO - Command completed successfully: Installing pyttsx3>=2.90
+2025-04-25 23:40:00,764 - __main__ - INFO - Running: Installing SpeechRecognition>=3.8.1
+2025-04-25 23:40:05,711 - __main__ - INFO - Command completed successfully: Installing SpeechRecognition>=3.8.1
+2025-04-25 23:40:05,712 - __main__ - INFO - Running: Installing pyaudio>=0.2.11
+2025-04-25 23:40:10,518 - __main__ - INFO - Command completed successfully: Installing pyaudio>=0.2.11
+2025-04-25 23:40:10,519 - __main__ - INFO - Running: Installing spaCy model
+2025-04-25 23:40:40,509 - __main__ - INFO - Command completed successfully: Installing spaCy model
+2025-04-25 23:40:40,510 - __main__ - INFO - Dependencies installed successfully
+2025-04-25 23:40:40,510 - __main__ - INFO - Setup completed successfully

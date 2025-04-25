@@ -1,0 +1,40 @@
+# Jarvis Configuration
+
+# Voice settings
+voice:
+  wake_word: "hey jarvis"
+  voice_activity_threshold: 0.01
+  silence_duration: 1.0
+  min_speech_duration: 0.3
+  wake_word_model_path: "models/wake_word"
+  sample_rate: 16000
+  channels: 1
+  chunk_size: 1024
+
+# NLP settings
+nlp:
+  max_history_length: 10
+  model_dir: "models/nlp"
+  intent_confidence_threshold: 0.7
+  entity_confidence_threshold: 0.5
+  sarcasm_confidence_threshold: 0.6
+  context_similarity_threshold: 0.5
+
+# System settings
+system:
+  log_level: "INFO"
+  log_file: "jarvis.log"
+  data_dir: "data"
+  conversation_history_file: "data/conversation/history.json"
+  voice_data_dir: "data/voice"
+  models_dir: "models"
+
+# Brain settings
+brain:
+  model: "gpt-3.5-turbo"
+  temperature: 0.7
+  max_tokens: 1000
+  top_p: 0.9
+  frequency_penalty: 0.0
+  presence_penalty: 0.0
+  system_prompt: "You are Jarvis, an advanced AI assistant with voice interaction capabilities. You are helpful, friendly, and knowledgeable." 

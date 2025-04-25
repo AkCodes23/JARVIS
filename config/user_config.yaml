@@ -1,0 +1,17 @@
+# User-specific configuration
+# WARNING: This file contains sensitive information. Do not commit to version control.
+
+integrations:
+  email:
+    username: "your.email@gmail.com"  # Replace with your email
+    password: "your-app-specific-password"  # Replace with your app password
+
+# User configuration for Jarvis
+
+# Voice settings
+voice:
+  elevenlabs_api_key: "sk_a4161a7126f0c406c88d91d307d2c307f11e249ef196fc2d"  # ElevenLabs API key
+
+# Security settings
+security:
+  encryption_key: ""  # Add your encryption key here if needed 

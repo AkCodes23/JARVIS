@@ -1,0 +1,40 @@
+{
+  "conversation": [
+    {
+      "timestamp": "2025-04-25T14:41:03.219633",
+      "text": "hi my name is Akhil I am having a"
+    },
+    {
+      "timestamp": "2025-04-25T14:41:09.870231",
+      "text": "and I really wanted to know how can I reduce"
+    },
+    {
+      "timestamp": "2025-04-25T14:41:23.593585",
+      "text": "if you're having a headache I think"
+    },
+    {
+      "timestamp": "2025-04-25T14:41:30.562117",
+      "text": "Post tracking yourself"
+    },
+    {
+      "timestamp": "2025-04-25T14:41:37.856603",
+      "text": "lactose take more time for sleeping and drinking"
+    },
+    {
+      "timestamp": "2025-04-25T14:41:44.519475",
+      "text": "ok thank you doctor"
+    },
+    {
+      "timestamp": "2025-04-25T14:41:51.405764",
+      "text": "I will contact you for more details"
+    }
+  ],
+  "insights": {
+    "key_points": [],
+    "action_items": [],
+    "patient_concerns": [],
+    "medical_terms": [],
+    "follow_up_questions": []
+  },
+  "timestamp": "2025-04-25T14:42:06.354929"
+}
