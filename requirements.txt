@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Core AI
 langchain>=0.0.267
 llama-index>=0.8.4
@@ -25,6 +26,7 @@ homeassistant-api>=4.2.0
 
 # Testing
 pytest>=7.3.1
+<<<<<<< HEAD
 
 vosk==0.3.45
 sounddevice==0.4.6
@@ -32,3 +34,75 @@ soundfile==0.12.1
 numpy==1.24.3
 torch==2.0.1
 torchaudio==2.0.2
+=======
+=======
+# Core dependencies
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.10.0
+PyYAML>=6.0
+python-dotenv>=1.0.0
+aiohttp>=3.8.0
+asyncio>=3.4.3
+typing-extensions>=4.5.0
+
+# LLM and AI
+openai>=1.0.0
+transformers>=4.30.0
+torch>=2.0.0
+torchaudio>=2.0.0
+whisper>=1.0.0
+chromadb>=0.4.0
+sentence-transformers>=2.2.0
+tiktoken>=0.4.0
+
+# Voice and Audio
+pyaudio>=0.2.13
+librosa>=0.10.0
+soundfile>=0.12.0
+elevenlabs>=0.2.0
+vosk>=0.3.45
+SpeechRecognition>=3.10.0
+
+# Web and API
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+aiohttp>=3.8.0
+fastapi>=0.100.0
+uvicorn>=0.22.0
+websockets>=11.0.0
+
+# Database and Storage
+sqlalchemy>=2.0.0
+alembic>=1.11.0
+redis>=4.5.0
+pymongo>=4.4.0
+
+# Utilities
+python-jose>=3.3.0
+passlib>=1.7.4
+bcrypt>=4.0.0
+cryptography>=41.0.0
+psutil>=5.9.0
+python-multipart>=0.0.6
+jinja2>=3.1.0
+
+# Testing
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+pytest-cov>=4.1.0
+pytest-mock>=3.11.0
+hypothesis>=6.82.0
+
+# Development
+black>=23.7.0
+isort>=5.12.0
+flake8>=6.1.0
+mypy>=1.5.0
+pre-commit>=3.3.0
+
+# UI
+streamlit>=1.25.0
+plotly>=5.16.0 
+>>>>>>> 05513f3 (Testing-1)
+>>>>>>> 1eeccdf3f446e031d7eb069190c0406499936d7e

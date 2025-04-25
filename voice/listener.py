@@ -1,4 +1,5 @@
 """
+<<<<<<< HEAD
 Speech recognition module for Jarvis.
 Handles converting speech to text.
 """
@@ -159,3 +160,196 @@ class VoiceListener:
             except sr.RequestError as e:
                 self.logger.error(f"Error requesting results from Google: {str(e)}")
                 return None
+=======
+Speech listener module for voice input.
+"""
+
+import logging
+from typing import Dict, List, Optional, Any, Union, Generator
+import json
+from datetime import datetime
+import asyncio
+import wave
+import pyaudio
+import numpy as np
+import whisper
+import torch
+from pathlib import Path
+import tempfile
+
+class SpeechListener:
+    """Handles speech recognition and audio input."""
+    
+    def __init__(
+        self,
+        engine: str = "whisper",
+        language: str = "en-US",
+        sample_rate: int = 16000,
+        channels: int = 1,
+        chunk_size: int = 1024,
+        format: int = pyaudio.paFloat32
+    ):
+        """Initialize speech listener with configuration."""
+        self.logger = logging.getLogger(__name__)
+        self.engine = engine
+        self.language = language
+        self.sample_rate = sample_rate
+        self.channels = channels
+        self.chunk_size = chunk_size
+        self.format = format
+        
+        # Initialize audio
+        self.audio = pyaudio.PyAudio()
+        self.stream = None
+        
+        # Initialize Whisper model
+        if engine == "whisper":
+            self.model = whisper.load_model("base")
+            if torch.cuda.is_available():
+                self.model = self.model.cuda()
+    
+    async def start_listening(self) -> Generator[bytes, None, None]:
+        """Start listening for audio input."""
+        try:
+            # Open audio stream
+            self.stream = self.audio.open(
+                format=self.format,
+                channels=self.channels,
+                rate=self.sample_rate,
+                input=True,
+                frames_per_buffer=self.chunk_size
+            )
+            
+            self.logger.info("Started listening for audio input")
+            
+            # Yield audio chunks
+            while True:
+                data = self.stream.read(self.chunk_size)
+                yield data
+                
+        except Exception as e:
+            self.logger.error(f"Failed to start listening: {e}")
+            raise
+        finally:
+            self.stop_listening()
+    
+    def stop_listening(self) -> None:
+        """Stop listening for audio input."""
+        try:
+            if self.stream:
+                self.stream.stop_stream()
+                self.stream.close()
+                self.stream = None
+                self.logger.info("Stopped listening for audio input")
+                
+        except Exception as e:
+            self.logger.error(f"Failed to stop listening: {e}")
+            raise
+    
+    async def transcribe(self, audio_data: bytes) -> str:
+        """Transcribe audio data to text."""
+        try:
+            if self.engine == "whisper":
+                return await self._transcribe_whisper(audio_data)
+            else:
+                raise ValueError(f"Unsupported engine: {self.engine}")
+                
+        except Exception as e:
+            self.logger.error(f"Failed to transcribe audio: {e}")
+            raise
+    
+    async def _transcribe_whisper(self, audio_data: bytes) -> str:
+        """Transcribe audio using Whisper."""
+        try:
+            # Save audio data to temporary file
+            with tempfile.NamedTemporaryFile(suffix='.wav', delete=False) as temp:
+                # Write WAV file
+                with wave.open(temp.name, 'wb') as wav:
+                    wav.setnchannels(self.channels)
+                    wav.setsampwidth(self.audio.get_sample_size(self.format))
+                    wav.setframerate(self.sample_rate)
+                    wav.writeframes(audio_data)
+                
+                # Transcribe audio
+                result = self.model.transcribe(
+                    temp.name,
+                    language=self.language.split('-')[0]
+                )
+            
+            # Clean up temporary file
+            Path(temp.name).unlink()
+            
+            return result['text']
+            
+        except Exception as e:
+            self.logger.error(f"Failed to transcribe with Whisper: {e}")
+            raise
+    
+    async def save_audio(
+        self,
+        audio_data: bytes,
+        filepath: str
+    ) -> Dict[str, Any]:
+        """Save audio data to file."""
+        try:
+            # Create directory if it doesn't exist
+            Path(filepath).parent.mkdir(parents=True, exist_ok=True)
+            
+            # Write WAV file
+            with wave.open(filepath, 'wb') as wav:
+                wav.setnchannels(self.channels)
+                wav.setsampwidth(self.audio.get_sample_size(self.format))
+                wav.setframerate(self.sample_rate)
+                wav.writeframes(audio_data)
+            
+            return {
+                'filepath': filepath,
+                'duration': len(audio_data) / (self.sample_rate * self.channels * 2),
+                'size': len(audio_data)
+            }
+            
+        except Exception as e:
+            self.logger.error(f"Failed to save audio: {e}")
+            raise
+    
+    async def process_audio(
+        self,
+        audio_data: bytes,
+        save: bool = False,
+        filepath: Optional[str] = None
+    ) -> Dict[str, Any]:
+        """Process audio data and optionally save it."""
+        try:
+            # Transcribe audio
+            text = await self.transcribe(audio_data)
+            
+            result = {
+                'text': text,
+                'duration': len(audio_data) / (self.sample_rate * self.channels * 2),
+                'size': len(audio_data)
+            }
+            
+            # Save audio if requested
+            if save:
+                if filepath is None:
+                    filepath = f"data/audio/{datetime.now().strftime('%Y%m%d_%H%M%S')}.wav"
+                
+                save_result = await self.save_audio(audio_data, filepath)
+                result.update(save_result)
+            
+            return result
+            
+        except Exception as e:
+            self.logger.error(f"Failed to process audio: {e}")
+            raise
+    
+    async def close(self) -> None:
+        """Close audio resources."""
+        try:
+            self.stop_listening()
+            self.audio.terminate()
+            
+        except Exception as e:
+            self.logger.error(f"Failed to close audio resources: {e}")
+            raise 
+>>>>>>> 05513f3 (Testing-1)
