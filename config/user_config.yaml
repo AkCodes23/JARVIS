@@ -10,7 +10,7 @@ integrations:
 
 # Voice settings
 voice:
-  elevenlabs_api_key: "sk_a4161a7126f0c406c88d91d307d2c307f11e249ef196fc2d"  # ElevenLabs API key
+  elevenlabs_api_key: ""  # ElevenLabs API key
 
 # Security settings
 security:
