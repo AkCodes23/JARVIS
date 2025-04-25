@@ -3,7 +3,7 @@ from groq import Groq
 
 def test_groq():
     # Use API key directly
-    api_key = "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"
+    api_key = ""
     
     print("Testing Groq connection...")
     try:
