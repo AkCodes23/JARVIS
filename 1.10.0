@@ -1,2 +1,0 @@
-Requirement already satisfied: scipy in c:\users\akhil\appdata\local\programs\python\python312\lib\site-packages (1.11.3)
-Requirement already satisfied: numpy<1.28.0,>=1.21.6 in c:\users\akhil\appdata\local\programs\python\python312\lib\site-packages (from scipy) (1.26.4)
